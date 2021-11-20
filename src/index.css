@@ -1,0 +1,39 @@
+main {
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 50px 30px;
+  }
+  :root {
+    --primary: #29ee33;
+    --secondary: #252629;
+    --tertiary: #b12704;
+    --light: #fafafa;
+    --dark: #000000;
+    --alpha: rgba(255,255,255,.7);
+    --error: rgb(228, 46, 1);
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    min-height: 100%;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    background: black;
+    color: var(--light);
+    font-family: Arial, Helvetica, sans-serif
+  }
+  .flex-row{
+      display: flex;
+      flex-wrap: wrap;
+  }
