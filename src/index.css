@@ -37,3 +37,16 @@ main {
       display: flex;
       flex-wrap: wrap;
   }
+
+li span:hover {
+    color: #4691f3;
+    
+}
+.navbar{
+    height: 100px;
+    font-size: 20px;
+    
+}
+.navbar-dark .navbar-brand{
+    font-size: 30px;
+}
