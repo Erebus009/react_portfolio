@@ -19,12 +19,14 @@ function Footer() {
   ]
 
   return (
-    <footer className="container.fluid d-flex justify-content-center bg-secondary">
+    <footer className=" d-flex justify-content-around">
+      <div></div>
       {icons.map(icon =>
       (
         <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer"><i className={icon.name}></i></a>
       )
         )}
+         <div></div>
     </footer>
   );
 }

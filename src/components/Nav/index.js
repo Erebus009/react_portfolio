@@ -17,7 +17,7 @@ function Nav(props){
             <ul className="d-flex mt-3 flex-column list-unstyled" >
               {pages.map((Page) => (
                 <li
-                  className={`mx-5 mt-3 text-dark display-3 ${
+                  className={`mx-5 mt-5 text-dark display-3 ${
                     currentPage.name === Page.name && 'navActive'
                     }`}
                   key={Page.name}

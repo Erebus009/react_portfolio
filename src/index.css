@@ -31,7 +31,9 @@ main {
     letter-spacing: 0.1em;
     background: black;
     color: var(--light);
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://www.gotechnologix.com/wp-content/uploads/2016/05/dark-background-wallpaper.jpg);
+    background-size: cover;
   }
   .flex-row{
       display: flex;
@@ -39,14 +41,60 @@ main {
   }
 
 li span:hover {
-    color: #4691f3;
+    color: #cecccc;
+    transition: 0.5s;
+    
     
 }
+li span{
+  color: white;
+
+
+}
 .navbar{
-    height: 100px;
+    height: 70px;
     font-size: 20px;
     
 }
 .navbar-dark .navbar-brand{
     font-size: 30px;
+}
+.offcanvas-body{
+  background-image: url(https://images.unsplash.com/photo-1517999144091-3d9dca6d1e43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80) ;
+  
+}
+.slideIn {
+  position: relative;
+  top: -1000px;
+  color: white;
+}
+.aboutHeaderAnimation{
+  position: relative;
+  top: -1000px;
+  color: white
+  
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  width: 100%;
+  margin:auto;
+  background-color: rgb(34, 33, 33);
+
+}
+a{
+  letter-spacing: 4px;
+}
+
+footer a{
+  color: white;
+  font-size: 30px;
+}
+footer a:hover{
+  color: white;
+  transform: translateY(-7px);
+  transition: 0.5s;
 }
