@@ -19,7 +19,9 @@ main {
   
   html,
   body {
-    min-height: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   body {
@@ -81,9 +83,9 @@ footer {
   bottom: 0;
   display: flex;
   justify-content: space-around;
-  height: 50px;
   width: 100%;
-  margin:auto;
+  left:0;
+  right:0;
   background-color: rgb(34, 33, 33);
 
 }
@@ -111,9 +113,18 @@ footer a:hover{
   width: 1px;
   z-index: -1;
   background-color: rgb(129, 128, 128);
-  box-shadow: 10px 10px 10000px 10px rgb(8, 250, 81);
+  box-shadow: 10px 10px 10000px 10px rgb(14, 115, 209);
 
 }
 .text-area{
   width: 400px;
+}
+.resume{
+  font-size: 20px;
+}
+a {
+  color: white !important;
+}
+a:hover{
+  color: #b3b3b3;
 }
