@@ -48,21 +48,21 @@ function About() {
             keyframes: [
               {
                 translateX: 0,
-                translateY: 30
+                translateY: 50
                 
               },
               {
                 translateY: -30
               },
               {
-                translateY: 30
+                translateY: 50
               },
               {
                 translateX: 0
               },
               {
                 translateY: -30,
-                background: "black"
+              
               }
             ],
             
@@ -74,6 +74,7 @@ function About() {
         <div className="container main-hero">
           <h1 className="aboutHeaderAnimation display-5">Hello, I am Travis Puryear</h1>
           <h1 className="slideIn">Full-Stack Developer</h1>
+          {/* <h1 className="projects"><a href="">See my work here</a></h1> */}
         </div>
       </Anime>
 

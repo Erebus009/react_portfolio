@@ -41,31 +41,37 @@ function Contact() {
   };
 
   return (
-    <section>
+    <section className="text-white container d-flex justify-content-center">
       <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
+      <label htmlFor="name">Name:</label>
+        <div className="mb-5">
+         
           <input
             type="text"
             name="name"
+            className="name-contact"
             defaultValue={name}
             onBlur={handleChange}
           />
         </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
+        <label htmlFor="email">Email:</label>
+        <div className="mb-5 mt-2">
+         
           <input
             type="email"
             name="email"
+            className="email-contact"
             defaultValue={email}
             onBlur={handleChange}
           />
         </div>
+        <label htmlFor="message">Message:</label>
         <div>
-          <label htmlFor="message">Message:</label>
+          
           <textarea
             name="message"
             rows="5"
+            className="text-area"
             defaultValue={message}
             onBlur={handleChange}
           />
@@ -75,7 +81,7 @@ function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button type="submit">Submit</button>
+        <button type="submit" className="btn- btn-dark">Submit</button>
       </form>
     </section>
   );

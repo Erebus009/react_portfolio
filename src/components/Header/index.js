@@ -25,7 +25,7 @@ function Header(props) {
       
         <Navbar.Toggle aria-controls="offcanvasNavbar" onClick={() => setExpanded(expanded ? false : "expanded")} />
         <Navbar.Offcanvas
-          collapseOnSelect
+          
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
           placement="end"
