@@ -6,12 +6,14 @@ function Project({ project }) {
   const { name, repo, link, description } = project;
 
   return (
-    <div className="project" key={name}>
+    <div className="project container.fluid" key={name}>
+      <div className="project-img">
       <img
         src={require(`../../assets/projects/${name}.jpg`).default}
         alt={removeHyphensAndCapitalize(name)}
         className="project-bg"
       />
+      </div>
       <div className="project-text">
         <h3>
           <a href={link} rel="noreferrer" target="_blank">{removeHyphensAndCapitalize(name)}</a>{' '}
