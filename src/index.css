@@ -109,11 +109,11 @@ footer a:hover{
   
 }
 .about-show{
-  height: 100px;
+  height: 200px;
   width: 1px;
   z-index: -1;
-  background-color: rgb(129, 128, 128);
-  box-shadow: 10px 10px 10000px 10px rgb(14, 115, 209);
+  background-color: rgb(255, 255, 255);
+    
 
 }
 .text-area{
@@ -127,4 +127,26 @@ a {
 }
 a:hover{
   color: #b3b3b3;
+}
+.projects a{
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: wavy;
+  padding: 15px;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+.projects a:hover{
+  background-color: rgb(29, 55, 204);
+  transform: translateY(10px);
+}
+.main-hero button{
+ 
+  font-size: 30px;
+  margin-left: 2px;
+ 
+  
 }

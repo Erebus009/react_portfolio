@@ -17,7 +17,7 @@ function About() {
           {
             targets: ".aboutHeaderAnimation",
             translateY: 1050,
-            
+            duration:100,
 
             easing: "spring",
           },
@@ -29,39 +29,58 @@ function About() {
             
             easing: "spring",
           },
+          {
+            targets: ".projects",
+            translateY: 100,
+            translateX: 90,
+            opacity: [0,1],
+          }
           
           
         ]}
+      
+        
+
+
+
+
+
+
+
+
         _onUpdate={[
           {
             targets: ".about-show",
-            background: "#FFF",
-            skew:0,
-            duration: 20000,
+            skew:600,
+            duration: 10000,
             direction:"alternate",
+            translateY:function(){
+              return anime.random(0,100)
+            },
+
             loop:true,
             easing: 'easeInOutQuad',
-            delay: anime.stagger(10,{
+            delay: anime.stagger(100,{
            
               
             }), 
             keyframes: [
               {
                 translateX: 0,
-                translateY: 50
+                translateY: 100
                 
               },
               {
-                translateY: -30
+                translateY: 0
               },
               {
-                translateY: 50
+                translateX: 50
               },
               {
-                translateX: 0
+                translateY: 90
               },
               {
-                translateY: -30,
+                translateY: 100,
               
               }
             ],
@@ -71,10 +90,13 @@ function About() {
         ]}
         
       >
-        <div className="container main-hero">
+        <div className="container main-hero mt-5">
           <h1 className="aboutHeaderAnimation display-5">Hello, I am Travis Puryear</h1>
           <h1 className="slideIn">Full-Stack Developer</h1>
-          {/* <h1 className="projects"><a href="">See my work here</a></h1> */}
+          <div className="container d-flex align-items-center">
+          <p className="seeWork text-white display-6"></p>
+          <p className="projects"><a className="text-white" href="/">My Projects</a></p>
+          </div>
         </div>
       </Anime>
 
@@ -116,6 +138,7 @@ function About() {
       <div className="about-show"></div>
       <div className="about-show"></div>
       <div className="about-show"></div>
+      
     
    
      
