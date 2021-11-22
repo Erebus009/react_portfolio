@@ -34,9 +34,11 @@ main {
     background: black;
     color: var(--light);
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(https://www.gotechnologix.com/wp-content/uploads/2016/05/dark-background-wallpaper.jpg);
+    background-image: url(https://i.ibb.co/Vjj0dq0/dark-background-wallpaper.jpg);
     background-size: cover;
     overflow-x: hidden;
+    z-index: -2;
+  
   }
   .flex-row{
       display: flex;
@@ -79,7 +81,7 @@ li span{
   
 }
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   display: flex;
   justify-content: space-around;
@@ -149,4 +151,7 @@ a:hover{
   margin-left: 2px;
  
   
+}
+img{
+  max-width: 100%;
 }

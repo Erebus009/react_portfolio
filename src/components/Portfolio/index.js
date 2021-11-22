@@ -1,19 +1,57 @@
 import React, {useState} from 'react';
 import Project from '../Project';
 
+
+
 function Portfiolo() {
     const [projects] = useState([
         {
-          name: 'thing',
+          name: 'Employee-Tracker',
           description: 'MERN Stack',
-          link: "https://github.com",
-          repo: "https://github.com"
+          link: "https://github.com/Erebus009/employee-tracker",
+          repo: "https://github.com/Erebus009/employee-tracker"
         },
+        {
+          name: 'Employee-Tracker',
+          description: 'MERN Stack',
+          link: "https://github.com/Erebus009/employee-tracker",
+          repo: "https://github.com/Erebus009/employee-tracker"
+        },
+        {
+          name: 'Employee-Tracker',
+          description: 'MERN Stack',
+          link: "https://github.com/Erebus009/employee-tracker",
+          repo: "https://github.com/Erebus009/employee-tracker"
+        },
+        // {
+        //   name: 'thing',
+        //   description: 'MERN Stack',
+        //   link: "https://github.com",
+        //   repo: "https://github.com"
+        // },
+        // {
+        //   name: 'thing',
+        //   description: 'MERN Stack',
+        //   link: "https://github.com",
+        //   repo: "https://github.com"
+        // },
+        // {
+        //   name: 'thing',
+        //   description: 'MERN Stack',
+        //   link: "https://github.com",
+        //   repo: "https://github.com"
+        // },
+        // {
+        //   name: 'thing',
+        //   description: 'MERN Stack',
+        //   link: "https://github.com",
+        //   repo: "https://github.com"
+        // },
        
       ]);
       return (
         <div>
-          <div className="flex-row">
+          <div className="flex-row container.fluid d-flex justify-content-between">
             {projects.map((project, idx) => (
               <Project
                 project={project}
