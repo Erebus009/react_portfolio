@@ -2,7 +2,8 @@ main {
   margin: 0 auto;
   max-width: 90%;
   padding: 50px 30px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 :root {
   --primary: #29ee33;
@@ -16,6 +17,8 @@ main {
 
 * {
   box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 html,
@@ -108,8 +111,7 @@ footer a:hover {
   z-index: -1;
   box-shadow: 1px 1px 100px rgb(255, 255, 255);
   background-color: rgb(255, 255, 255);
-  overflow: hidden
-
+  overflow: hidden;
 }
 .text-area {
   width: 400px;
@@ -124,15 +126,13 @@ a:hover {
   color: #b3b3b3;
 }
 
-
-
 .project-bg {
   max-width: 100%;
   max-height: 400px;
   object-fit: cover;
 }
 img {
-  width:  600px;
+  width: 600px;
   height: 100%;
   background-size: cover;
 }
