@@ -34,19 +34,19 @@ function About() {
         _onUpdate={[
           {
             targets: ".about-show",
-            duration: 12000,
-            skew: -20,
+            duration: 3000,
+            skew: -40,
             direction: "alternate",
             translateY: function () {
-              return anime.random(-10, 400);
+              return anime.random(-10, 200);
             },
             translateX: function () {
-              return anime.random(-50, 90);
+              return anime.random(-30, 100);
             },
 
             loop: true,
             easing: "easeInOutQuad",
-            delay: anime.stagger(30, {}),
+            delay: anime.stagger(100, {}),
           },
         ]}
       >
