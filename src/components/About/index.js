@@ -25,12 +25,7 @@ function About() {
 
             easing: "spring",
           },
-          {
-            targets: ".projects",
-            translateY: 90,
-            translateX: 120,
-            opacity: [0, 1],
-          },
+         
         ]}
         _onUpdate={[
           {
@@ -39,7 +34,7 @@ function About() {
             skew: -20,
             direction: "alternate",
             translateY: function () {
-              return anime.random(-10, 400);
+              return anime.random(20, 400);
             },
             translateX: function () {
               return anime.random(-50, 90);
@@ -63,6 +58,9 @@ function About() {
           </div>
         </div>
       </Anime>
+
+
+      
       <div className="about-show"></div>
       <div className="about-show"></div>
       <div className="about-show"></div>
