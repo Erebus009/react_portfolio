@@ -6,8 +6,8 @@ function Project({ project }) {
   const { name, repo, link, description } = project;
 
   return (
-    <div className="project container.fluid" key={name}>
-      <div className="project-img">
+    <div className="project container.fluid mt-5" key={name}>
+      <div className="project-img ">
       <img
         src={require(`../../assets/projects/${name}.jpg`).default}
         alt={removeHyphensAndCapitalize(name)}
