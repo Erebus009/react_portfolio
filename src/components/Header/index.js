@@ -16,7 +16,7 @@ function Header(props) {
     <Navbar bg="dark" variant="dark" expand={expanded} collapseOnSelect>
       <Container fluid className="d-flex justify-content-between">
         
-        <Navbar.Brand href="/" className="display-1">
+        <Navbar.Brand href="https://erebus009.github.io/react_portfolio/" className="display-1">
           Travis Puryear
          
       
