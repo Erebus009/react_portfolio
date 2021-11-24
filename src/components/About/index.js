@@ -1,7 +1,6 @@
 import React from "react";
 import anime from "animejs/lib/anime.es.js";
 import ReactAnime from "react-animejs";
-import Portfiolo from "../Portfolio";
 const { Anime, stagger } = ReactAnime;
 
 function About() {
@@ -25,16 +24,21 @@ function About() {
 
             easing: "spring",
           },
-         
+          {
+            targets: ".projects",
+            translateY: 90,
+            translateX: 120,
+            opacity: [0, 1],
+          },
         ]}
         _onUpdate={[
           {
             targets: ".about-show",
-            duration: 3000,
+            duration: 12000,
             skew: -20,
             direction: "alternate",
             translateY: function () {
-              return anime.random(20, 400);
+              return anime.random(-10, 400);
             },
             translateX: function () {
               return anime.random(-50, 90);
@@ -42,7 +46,7 @@ function About() {
 
             loop: true,
             easing: "easeInOutQuad",
-            delay: anime.stagger(90, {}),
+            delay: anime.stagger(30, {}),
           },
         ]}
       >
@@ -53,14 +57,43 @@ function About() {
           <h1 className="slideIn">Full-Stack Developer</h1>
           <div className="container d-flex align-items-center">
             <p className="seeWork text-white display-6"></p>
-           
-        
+            
+          
           </div>
         </div>
       </Anime>
 
-
-      
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
+      <div className="about-show"></div>
       <div className="about-show"></div>
       <div className="about-show"></div>
       <div className="about-show"></div>
