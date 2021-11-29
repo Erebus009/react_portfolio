@@ -1,7 +1,7 @@
 import React from "react";
 import anime from "animejs/lib/anime.es.js";
 import ReactAnime from "react-animejs";
-const { Anime, stagger } = ReactAnime;
+const { Anime } = ReactAnime;
 
 function About() {
  

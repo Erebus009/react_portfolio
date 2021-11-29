@@ -2,7 +2,7 @@ import React from 'react';
 
 function Resume() {
   return (
-    <section className="text-white container d-flex justify-content-center h-25">
+    <section className="text-white container d-flex d-row justify-content-center h-25">
       <div className=" resume">
       <p>
         Download my <a href="https://www.linkedin.com/">resume</a>

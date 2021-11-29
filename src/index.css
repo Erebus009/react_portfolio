@@ -127,3 +127,6 @@ img {
   height: 100%;
   background-size: cover;
 }
+.skills li  {
+  margin-top: 10px;
+}
