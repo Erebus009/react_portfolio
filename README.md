@@ -21,7 +21,9 @@
   * [Questions](#Questions)
 
   ## Installation
-  <code>git clone https://github.com/Erebus009/react_portfolio npm i npm run start</code>
+      git clone https://github.com/Erebus009/react_portfolio 
+      npm i 
+      npm run start
   ## Usage
   <code></code>
   
