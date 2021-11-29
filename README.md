@@ -2,7 +2,7 @@
 ##  [Deployed Site](https://erebus009.github.io/react_portfolio/)
 
 
-<img src="https://i.ibb.co/N3zwb1n/website-image.png"/>
+![](https://i.ibb.co/N3zwb1n/website-image.png)
   
   # Description
   A created website showcasing my language proficiencies and projects by utilizing the React framework.
