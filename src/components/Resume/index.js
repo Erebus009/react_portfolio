@@ -5,7 +5,7 @@ function Resume() {
     <section className="text-white container d-flex d-row justify-content-center h-25">
       <div className=" resume">
       <p>
-        Download my <a href="https://www.linkedin.com/">resume</a>
+        Download my <a href="https://my.indeed.com/p/travisp-t28l2vd">resume</a>
         </p>
         <h3>Front-end Proficiencies</h3>
         <ul className="skills">
