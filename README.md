@@ -1,5 +1,8 @@
 # React Portfolio
 ##  [Deployed Site](https://erebus009.github.io/react_portfolio/)
+
+
+![](https://i.ibb.co/N3zwb1n/website-image.png)
   
   # Description
   A created website showcasing my language proficiencies and projects by utilizing the React framework.
@@ -21,7 +24,9 @@
   * [Questions](#Questions)
 
   ## Installation
-  <code>git clone https://github.com/Erebus009/react_portfolio npm i npm run start</code>
+      git clone https://github.com/Erebus009/react_portfolio 
+      npm i 
+      npm run start
   ## Usage
   <code></code>
   
