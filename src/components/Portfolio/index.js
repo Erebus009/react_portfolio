@@ -14,8 +14,8 @@ function Portfiolo() {
         {
           name: 'Employee Generator',
           description: 'Javascript,NPM inquirer, CLI app, Handlebars, Jest',
-          link: "https://github.com/Erebus009/employee-tracker",
-          repo: "https://github.com/Erebus009/employee-tracker"
+          link: "https://github.com/Erebus009/Employee-generator",
+          repo: "https://github.com/Erebus009/Employee-generator"
         },
         {
           name: 'Weather-Forecast',
