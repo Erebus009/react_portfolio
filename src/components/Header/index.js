@@ -17,7 +17,8 @@ function Header(props) {
       <Container fluid className="d-flex justify-content-between">
         
         <Navbar.Brand href="https://erebus009.github.io/react_portfolio/" className="display-1">
-          Travis Puryear
+          Travis Puryear 
+          
          
       
           

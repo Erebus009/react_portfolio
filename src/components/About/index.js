@@ -132,7 +132,9 @@ function About() {
       <div className="about-show"></div>
       <div className="about-show"></div>
       <div className="about-show"></div>
+      
     </div>
+    
   );
 }
 
