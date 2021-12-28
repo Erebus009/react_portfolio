@@ -2,13 +2,17 @@ import React, {useState} from 'react';
 import "./style.css"
 import Projects from '../Projects';
 import pokeapi from "../../assets/projects/PokeAPI.jpg"
-
-
+import generator from "../../assets/projects/Employee Generator.jpg"
+import weather from "../../assets/projects/Weather-Forecast.jpg"
+import tracker from "../../assets/projects/Employee-Tracker.jpg"
+import ReadMe from "../../assets/projects/READme Generator.jpg"
+import workout from "../../assets/projects/Workout Tracker.jpg"
 function Portfiolo() {
   const [projects] = useState([
     {
       id : 1,
       name: 'Employee-Tracker',
+      image: tracker,
       description: 'MySQL, Javascript, Node.js, CRUD',
       link: "https://github.com/Erebus009/employee-tracker",
       repo: "https://github.com/Erebus009/employee-tracker"
@@ -17,6 +21,7 @@ function Portfiolo() {
       id: 2,
       name: 'Employee Generator',
       description: 'Javascript,NPM inquirer, CLI app, Handlebars, Jest',
+      image: generator,
       link: "https://github.com/Erebus009/Employee-generator",
       repo: "https://github.com/Erebus009/Employee-generator"
     },
@@ -24,12 +29,14 @@ function Portfiolo() {
       id: 3,
       name: 'Weather-Forecast',
       description: 'Javascript/API calls',
+      image: weather,
       link: "https://erebus009.github.io/weather-forecast-app/",
       repo: "https://github.com/Erebus009/weather-forecast-app"
     },
     {
       id: 4,
       name: 'READme Generator',
+      image: ReadMe,
       description: 'NodeJS, Markdown, Javascript, CLI app',
       link: "https://github.com/Erebus009/README-Generator",
       repo: "https://github.com/Erebus009/README-Generator"
@@ -45,6 +52,7 @@ function Portfiolo() {
     {
       id: 6,
       name: 'Workout Tracker',
+      image: workout,
       description: 'NodeJS, Javascript, MongoDB, Express ',
       link: "https://cryptic-coast-75761.herokuapp.com/?id=6190192884763d00168a9ef3",
       repo: "https://github.com/Erebus009/workout_tracker"
@@ -73,7 +81,7 @@ function Portfiolo() {
           
               
           </div>
-          <a href='link'>link</a>
+          
         </div>
       );
     };

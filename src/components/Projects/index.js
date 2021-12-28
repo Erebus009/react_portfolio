@@ -8,10 +8,14 @@ const Projects =({name, description, link, repo,image,id})  => {
     return (
         
         <div className="p">
+            
             <div className="project-browser">
             <h3 className="project-name">{name}</h3>
+            <p className="p-right">{description}</p>
+            
             </div>
-            <img src={image} alt=""></img>
+            <div>   </div>
+            <a href={repo} rel="noreferrer" target="_blank"><img className="p-img" src={image} alt=""></img></a>
             
         </div>
        
