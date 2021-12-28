@@ -19,39 +19,6 @@ body {
 }
 
 
-.flex-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-li span:hover {
-  color: #a1a0a0;
-  transition: 0.5s;
-}
-li span {
-  color: white;
-}
-.navbar {
-  height: 70px;
-  font-size: 20px;
-}
-.navbar-dark .navbar-brand {
-  font-size: 30px;
-}
-.offcanvas-body {
-  background-image: url(https://images.unsplash.com/photo-1517999144091-3d9dca6d1e43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80);
-}
-.slideIn {
-  position: relative;
-  top: -1000px;
-  color: white;
-}
-.aboutHeaderAnimation {
-  position: relative;
-  top: -1000px;
-  color: white;
-  white-space: nowrap;
-}
 footer {
   position: fixed;
   bottom: 0;
@@ -75,43 +42,4 @@ footer a:hover {
   transform: translateY(-7px);
   transition: 0.5s;
 }
-.project-btn {
-  box-shadow: 1px 1px 1px 1px solid;
-  position: relative;
-  top: -300px;
-}
-.about-show {
-  height: 100px;
-  margin-top: 40px;
-  width: 1px;
-  z-index: -1;
-  background-color: rgb(255, 255, 255);
-  overflow: hidden;
-}
-.text-area {
-  width: 400px;
-}
-.resume {
-  font-size: 20px;
-}
-a {
-  color: white !important;
-}
-a:hover {
-  color: #b3b3b3;
-}
 
-.project-bg {
-  max-width: 100%;
-  max-height: 400px;
-  object-fit: cover;
-}
-img {
-  width: 600px;
-  height: 100%;
-  background-size: cover;
-}
-.skills li  {
-  margin-top: 10px;
-
-}

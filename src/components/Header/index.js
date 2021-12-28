@@ -15,15 +15,18 @@ function Header(props) {
                <div className="title-item">Web Developer</div>
                <div className="title-item">Freelancer</div>
                <div className="title-item">Metal Music Fan</div>
+               <div className="title-item">Front-End Developer</div>
              </div>
+            
            </div>
+           <p className="desc">Web Developer creating unique experiences on the web for clients and customers.</p>
           </div>
         </div>
         <div className="intro-right">
         <div className="bg">
-
+         
         </div>
-          <img src="" alt="" className="image-intro"></img>
+         
         </div>
       </div>
     </header>
