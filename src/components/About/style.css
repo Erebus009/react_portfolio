@@ -10,7 +10,7 @@
 
 }
 .about-right{
-    flex: 2;
+    flex: 1;
     padding: 20px;
     
 }
@@ -23,7 +23,8 @@
 .about-text {
     width: 70%;
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 22px;
+    height: 300px;
 }
 .about-title{
     width: 70%;
@@ -31,4 +32,16 @@
     font-weight: 600;
     font-size: 40px;
     padding-bottom: 40px;
+}
+@media only screen and (max-width: 700px) {
+    .about{
+        height: 100vh;
+        
+        flex-direction: column;
+        margin-bottom: 900px;
+    }
+    .about-left{
+        display: block;
+    }
+    
 }

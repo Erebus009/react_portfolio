@@ -67,7 +67,7 @@ function Portfiolo() {
             
              <div>
                <h1 className='project-title'>My Projects</h1>
-               <p className='project-text'>A list of all my projects and the languages used.</p>
+               <p className='project-text'></p>
              </div>
             
           </div>

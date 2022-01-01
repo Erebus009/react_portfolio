@@ -15,7 +15,11 @@ const About = props => {
             </div>
             <div className='about-right'>
                 <h1 className='about-title'>About me</h1>
-                <p className='about-text'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <p className='about-text'> Web Developer with a background in the electrical field being able to plan and develop from material stage to end of production, bringing a distinctive
+approach to how users understand and interact with websites and web applications. Trained
+and certified at the UCF Full-Stack Bootcamp learning fundamentals and best practices of JavaScript, CSS, React.js, and responsive web design with interaction with databases such as MySQL and MongoDB.  Agile and intuitive problem-solver with a
+passion for building a unique user experience through web applications. 
+</p>
             </div>
         </div>
     )

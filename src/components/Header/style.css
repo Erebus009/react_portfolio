@@ -10,7 +10,7 @@
    
 }
 .intro-left{
-    flex: 1;
+    flex: 2;
     
     
 
@@ -80,8 +80,8 @@ html {
     font-weight: 400;
 }
 .bg{
-    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-    background-color: rgb(11, 164, 224);
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    background-color: rgb(21, 172, 231);
     color: white;
     z-index: -1;
     width: 100%;
@@ -95,4 +95,10 @@ html {
     padding-top: 60px;
     margin: 0 auto;
     position: relative;
+}
+@media only screen and (max-width: 700px) {
+    .bg {
+       display: none;
+    }
+    
 }
