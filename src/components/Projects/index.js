@@ -15,7 +15,7 @@ const Projects =({name, description, link, repo,image,id})  => {
             
             </div>
             <div>   </div>
-            <a href={repo} rel="noreferrer" target="_blank"><img className="p-img" src={image} alt=""></img></a>
+            <a href={link} rel="noreferrer" target="_blank"><img className="p-img" src={image} alt=""></img></a>
             
         </div>
        
