@@ -6,7 +6,7 @@
 
   
   # Description
-  A created website showcasing my language proficiencies and projects by utilizing the React framework.
+  A created website showcasing my language proficiencies and projects by utilizing the React library.
   # Licensed Under
   ![GitHub license](https://img.shields.io/badge/License-MIT-black.svg)
   # Table of Contents
