@@ -13,14 +13,14 @@ function Portfiolo() {
       id : 1,
       name: 'Employee-Tracker',
       image: tracker,
-      description: 'MySQL, Javascript, Node.js, CRUD',
+      description: 'MySQL, JavaScript, Node.js, CRUD',
       link: "https://github.com/Erebus009/employee-tracker",
       repo: "https://github.com/Erebus009/employee-tracker"
     },
     {
       id: 2,
       name: 'Employee Generator',
-      description: 'Javascript,NPM inquirer, CLI app, Handlebars, Jest',
+      description: 'JavaScript,npm inquirer, CLI app, Handlebars, Jest',
       image: generator,
       link: "https://github.com/Erebus009/Employee-generator",
       repo: "https://github.com/Erebus009/Employee-generator"
@@ -28,7 +28,7 @@ function Portfiolo() {
     {
       id: 3,
       name: 'Weather-Forecast',
-      description: 'Javascript/API calls',
+      description: 'JavaScript/API calls',
       image: weather,
       link: "https://erebus009.github.io/weather-forecast-app/",
       repo: "https://github.com/Erebus009/weather-forecast-app"
@@ -37,23 +37,23 @@ function Portfiolo() {
       id: 4,
       name: 'READme Generator',
       image: ReadMe,
-      description: 'NodeJS, Markdown, Javascript, CLI app',
+      description: 'NodeJS, Markdown, JavaScript, CLI app',
       link: "https://github.com/Erebus009/README-Generator",
       repo: "https://github.com/Erebus009/README-Generator"
     },
     {
       id: 5,
-      name: 'PokeAPI',
-      description: 'PokeAPI Fetch(), Javascript',
+      name: 'PoKeDex with React',
+      description: 'PokeAPI, React, JavaScript',
       image: pokeapi,
-      link: "https://erebus009.github.io/PokeAPI_usage/",
+      link: "https://erebus009.github.io/PokeDex-with-React/",
       repo: "https://github.com/Erebus009/PokeAPI_usage"
     },
     {
       id: 6,
       name: 'Workout Tracker',
       image: workout,
-      description: 'NodeJS, Javascript, MongoDB, Express ',
+      description: 'NodeJS, JavaScript, MongoDB, Express ',
       link: "https://cryptic-coast-75761.herokuapp.com/?id=6190192884763d00168a9ef3",
       repo: "https://github.com/Erebus009/workout_tracker"
     },
