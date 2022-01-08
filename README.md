@@ -2,7 +2,8 @@
 ##  [Deployed Site](https://erebus009.github.io/react_portfolio/)
 
 
-![](https://i.ibb.co/N3zwb1n/website-image.png)
+![image](https://user-images.githubusercontent.com/12164234/147857227-e2bd3c70-683d-4d99-8689-58c610f34166.png)
+
   
   # Description
   A created website showcasing my language proficiencies and projects by utilizing the React framework.
