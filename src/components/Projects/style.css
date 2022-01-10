@@ -17,7 +17,8 @@
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    
   
 }
 
@@ -40,4 +41,22 @@
     font-size: 18px;
     float: right;
     display: flex;
+    margin-left: 5px;
 }
+@media only screen and (max-width: 800px) {
+     .project-name {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .p-right{
+        font-size: 13px;
+        flex-wrap: wrap;
+        display: flex;
+        white-space: wrap;
+        width: 40%;
+    }
+    
+    
+    
+      
+  }

@@ -10,7 +10,7 @@
   position: absolute;
   width: 100%;
   z-index: -1;
-  height: 60vh;
+  height: 52vh;
   border: 1px solid black;
 }
 .contact-wrapper {
@@ -31,7 +31,7 @@
   display: flex;
   background-color: rgb(255, 255, 255);
   height: auto;
-  width: 100%;
+  width: 100vh;
   padding: 50px 20px;
   box-shadow: 1px 2px 6px 1px black;
 }
@@ -78,8 +78,20 @@ textarea {
 
 
 @media only screen and (max-width: 800px) {
+
+  .contact-wrapper{
+    padding: 20px;
+    margin-top: 20px;
+
+  }
     .contact-back {
-        height: 100vh;
+        height: 50vh;
+    }
+    .contact-title{
+      font-size: 30px;
+    }
+    .contact-right{
+      padding: 20px 20px;
     }
     
 }

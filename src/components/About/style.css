@@ -10,8 +10,9 @@
 
 }
 .about-right{
-    flex: 1;
-    padding: 20px;
+    flex: 2;
+    
+   
     
 }
 .about-card img{
@@ -21,13 +22,19 @@
     border-radius: 30px;
 }
 .about-text {
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     font-size: 22px;
-    height: 300px;
+    height: 65vh;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    scroll-behavior: smooth;
+    padding: 20px;
 }
 .about-title{
-    width: 70%;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
     margin: 0 auto;
     font-weight: 600;
     font-size: 40px;
@@ -43,5 +50,10 @@
     .about-left{
         display: block;
     }
+    .about-text {
+        font-size: 20px;
+        width: 90%;
+    }
+    
     
 }
