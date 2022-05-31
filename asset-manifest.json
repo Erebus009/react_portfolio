@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react_portfolio/static/css/main.72b6a1bb.css",
+    "main.js": "/react_portfolio/static/js/main.402314fe.js",
+    "static/media/mountainer.jpg": "/react_portfolio/static/media/mountainer.82a21f87152aba30b5c4.jpg",
+    "static/media/Weather-Forecast.jpg": "/react_portfolio/static/media/Weather-Forecast.15c9dad4afbaff3c9825.jpg",
+    "static/media/PokeAPI.jpg": "/react_portfolio/static/media/PokeAPI.73f3dec994f795e4c70a.jpg",
+    "static/media/Employee Generator.jpg": "/react_portfolio/static/media/Employee Generator.fee099fd44bc180761ab.jpg",
+    "static/media/READme Generator.jpg": "/react_portfolio/static/media/READme Generator.7ac46306c95b53adf7cd.jpg",
+    "static/media/Employee-Tracker.jpg": "/react_portfolio/static/media/Employee-Tracker.5859dba2779270340a2f.jpg",
+    "static/media/Workout Tracker.jpg": "/react_portfolio/static/media/Workout Tracker.fcef58977de2225e065d.jpg",
+    "index.html": "/react_portfolio/index.html",
+    "main.72b6a1bb.css.map": "/react_portfolio/static/css/main.72b6a1bb.css.map",
+    "main.402314fe.js.map": "/react_portfolio/static/js/main.402314fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72b6a1bb.css",
+    "static/js/main.402314fe.js"
+  ]
+}
