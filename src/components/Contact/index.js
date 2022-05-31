@@ -44,7 +44,7 @@ function Contact() {
               </div>
               <div className="contact-item">
                 <p>
-                 <a href="https://docs.google.com/document/d/1MbgcUwcMVB8HPHG6mpi6XkVCgElviKlAYtZZXwmR4ro/edit?usp=sharing" target="
+                 <a href="https://www.linkedin.com/in/travis-puryear/overlay/1635481507005/single-media-viewer/" target="
                  _blank">See my Resume</a>
                 </p>
               </div>
